@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 g_datadir <- "UCI HAR Dataset"
 g_dirs2merge <- c("test","train")
 g_mergedir <- "merged"
@@ -32,3 +33,6 @@ mergeDatasets <- function(mergedir=g_mergedir, datadir=g_datadir, dirs2merge=g_d
 }  
 
 
+=======
+#test
+>>>>>>> 3a6872a5d1c4a52a719ed968550a60e653477cf1
