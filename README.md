@@ -1,2 +1,2 @@
 # HARUS
-human activity recongnition using smartphones
+human activity recognition using smartphones
