@@ -31,4 +31,13 @@ mergeDatasets <- function(mergedir=g_mergedir, datadir=g_datadir, dirs2merge=g_d
         
 }  
 
-
+MeanAndStd <- function(mergedir=g_mergedir, datadir=g_datadir) {
+        cols_dt <- read.table(paste0(datadir,"/features.txt"))
+        cols_dt1 <- cols_dt[grep("mean\\(\\)|std\\(\\)",cols_dt[,2]),]     
+        
+        dt <- read.table(paste0(mergedir,"/X_merged.txt"), stringsAsFactors = FALSE)
+        dt1 <- dt[,cols_dt1[,1]]
+        colnames(dt1) <- cols_dt1[,2]
+        
+        #write.table(dt1, file = paste0(mergedir,"/MeanAndStd.txt"), row.names = FALSE, col.names = TRUE)
+}
