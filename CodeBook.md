@@ -1,5 +1,5 @@
-##a code book that describes the variables, the data, and any transformations
-##or work that were performed to clean up the data
+a code book that describes the variables, the data, and any transformations
+or work that were performed to clean up the data
 
 #Variables
 The run_analysis.R script contains the global variables

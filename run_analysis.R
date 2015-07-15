@@ -264,7 +264,7 @@ DescriptiveVarNames <- function() {
         sub_dt <- rbind(sub_dt, data.table(pattern="-mean\\(\\)", replacement="Mean"))
         sub_dt <- rbind(sub_dt, data.table(pattern="-std\\(\\)", replacement="Std"))
         sub_dt <- rbind(sub_dt, data.table(pattern="^t", replacement="Time"))
-        sub_dt <- rbind(sub_dt, data.table(pattern="^f", replacement="Fft"))
+        sub_dt <- rbind(sub_dt, data.table(pattern="^f", replacement="Frequency"))
         sub_dt <- rbind(sub_dt, data.table(pattern="Acc", replacement="Acceleration"))
         sub_dt <- rbind(sub_dt, data.table(pattern="Gyro", replacement="Gyroscope"))
         sub_dt <- rbind(sub_dt, data.table(pattern="Mag", replacement="Magnitude"))
