@@ -29,8 +29,8 @@ into "merged" directory.
 
 
 
-The following functions will create file "DataSetX.txt" that contains the data
-and "DataSetFeatureX.txt" that contains the columns list.
+The following functions will create files like "DataSet?.txt" that contains the data
+and "DataSetFeature?.txt" that contain the columns list.
 
 SaveDataSet2()
 - Extracts only the measurements on the mean and standard deviation for each measurement,
