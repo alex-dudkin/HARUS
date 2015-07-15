@@ -39,13 +39,12 @@ selects "-mean()" and "-std()" columns from the dataset.
 
 SaveDataSet3()
 - Uses descriptive activity names to name the activities in the data set.
-Reads "X_merged.txt"
-and "activity_labels.txt" files, 
+Reads "X_merged.txt", "y_merged.txt" and "activity_labels.txt" files, 
 appends "ActivityCode" and "Activity" columns to dataset.
 
 SaveDataSet4()
 - Appropriately labels the data set with descriptive variable names.
-Reads "X_merged.txt" and "features.txt" files, 
+Reads "X_merged.txt", "y_merged.txt" and "activity_labels.txt", "features.txt" files, 
 translates the columns names into human readable,
 appends "SubjectCode", "ActivityCode" and "Activity" columns to dataset.
 
