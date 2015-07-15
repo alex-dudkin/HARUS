@@ -29,7 +29,7 @@ into "merged" directory.
 
 
 
-The following functions will create files like "DataSet?.txt" that contains the data
+The following functions will create files like "DataSet?.txt" that contain the data
 and "DataSetFeature?.txt" that contain the columns list.
 
 SaveDataSet2()
