@@ -28,7 +28,8 @@ merges datafiles from "test" and "train" subdirectories and put the merged dataf
 into "merged" directory.
 
 
-- The following functions will create file "DataSetX.txt" that contains the data
+
+The following functions will create file "DataSetX.txt" that contains the data
 and "DataSetFeatureX.txt" that contains the columns list.
 
 SaveDataSet2()
