@@ -6,7 +6,7 @@
         The dataset should be contained in 'UCI HAR Dataset' subdirectory.
         The run_analysis.R script contains a few variables that specify
         the default location of the dataset.
-        You can tweak the variables as needed. See CodeBook.md for more.
+        You can tweak the variables as needed. See CodeBook.md for the variables.
 
 2.      Put the script run_analysis.R into working directory.
 
