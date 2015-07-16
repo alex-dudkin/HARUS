@@ -14,3 +14,4 @@
 4.      Execute run_analysis.R script by typing in the RStudio console:
         source("run_analysis.R")
         The execution will take about 2 minutes.
+        The output files will be put in the "merged" subdirectory.
