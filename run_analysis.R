@@ -18,10 +18,10 @@ SaveDataSet1 <- function() {
         dir2 <- paste0(g_datadir, "/", g_dirs2merge[2])
         
         #check if source data directories exist
-        if (!file(dir1)) {
+        if (!file.exists(dir1)) {
                 stop(paste("Directory is absent:", dir1))
         }
-        if (!file(dir2)) {
+        if (!file.exists(dir2)) {
                 stop(paste("Directory is absent:", dir2))
         }
         
