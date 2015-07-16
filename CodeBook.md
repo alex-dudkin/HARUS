@@ -1,7 +1,7 @@
 a code book that describes the variables, the data, and any transformations
 or work that were performed to clean up the data
 
-#Variables
+##Variables
 The run_analysis.R script contains the global variables
 that specify default location of the Samsung dataset:
 
@@ -18,7 +18,7 @@ g_mergedir <- "merged"
 The merged files will be put in there.
 
 
-#Main Functions
+##Main Functions
 - are executed automatically as you type in R console:
 source("run_analysis.R")
 
