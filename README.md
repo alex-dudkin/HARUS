@@ -1,6 +1,6 @@
 1.      Unpack the Samsung dataset into working directory, preserving 
         the dataset's archive directory structure.
-        The dataset should be contained in 'UCI HAR Dataset' subdirectory.
+        The dataset should be contained in 'UCI HAR Dataset' directory.
         The run_analysis.R script contains a few variables that specify
         the default location of the dataset.
         You can tweak the variables as needed. See CodeBook.md for the details.
