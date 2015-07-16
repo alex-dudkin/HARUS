@@ -6,16 +6,16 @@ The run_analysis.R script contains the global variables
 that specify default location of the Samsung dataset:
 
 g_datadir <- "UCI HAR Dataset"          
-- root directory of the dataset.
-The directory is created automatically as you unpack the Samsung archive.
+- directory of the dataset.
+The directory is created automatically as you unpack the Samsung archive into you working directory.
 
 g_dirs2merge <- c("test","train") 
-- subdirectories inside the root directory.
-The directories are created automatically as you unpack the Samsung archive.
+- subdirectories inside the dataset directory.
+The subdirectories are created automatically as you unpack the Samsung archive.
 
 g_mergedir <- "merged"
-- the run_analysis.R script will create the directory.
-The merged files will be put there.
+- the run_analysis.R script will create the directory in your working directory.
+The merged files will be put in there.
 
 
 #Main Functions
@@ -29,8 +29,8 @@ into "merged" directory.
 
 
 
-The following functions will create files like "DataSet?.txt" that contain the data
-and "DataSetFeature?.txt" that contain the columns list.
+The following functions will create "DataSet?.txt" files contain the data
+and "DataSetFeature?.txt" files contain the columns list.
 
 SaveDataSet2()
 - Extracts only the measurements on the mean and standard deviation for each measurement,
