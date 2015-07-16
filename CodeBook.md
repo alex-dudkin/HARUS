@@ -14,7 +14,7 @@ g_dirs2merge <- c("test","train")
 The subdirectories are created automatically as you unpack the Samsung archive.
 
 g_mergedir <- "merged"
-- the run_analysis.R script will create the directory in your working directory.
+- the run_analysis.R script will create the directory inside your working directory.
 The merged files will be put in there.
 
 
