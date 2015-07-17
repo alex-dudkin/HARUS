@@ -183,11 +183,10 @@ DataSet3 <- function() {
 DescriptiveActivityColumn <- function() {
         #returns activity data.table with descriptive activity names
         
-        activity_label_df <- read.table(
+        activity_label_dt <- as.data.table(read.table(
                 paste0(g_datadir,"/activity_labels.txt")
-                ,col.names = c("ActivityCode","Activity")
-                ,row.names = 1
-        )
+                ,col.names = c("LabelActivityCode","LabelActivity")
+        ))
         
         activity_dt <- as.data.table(read.table(
                 paste0(g_mergedir,"/y_merged.txt")
@@ -196,7 +195,11 @@ DescriptiveActivityColumn <- function() {
         
         #return data.table with ActivityCode and Activity columns
         
-        activity_dt[, Activity:=activity_label_df[ActivityCode,]]
+        activity_dt[,
+                Activity:=activity_label_dt[
+                        LabelActivityCode==ActivityCode, LabelActivity
+                ]
+        ]
         #uncomment if ActivityCode column doesn't needed:
         #activity_dt2 <- activity_dt1[,.(Activity)]
 } 
